@@ -3,11 +3,11 @@ Connected air-conditioner remote of project Yelle
 
 Yelle is a project developed in [Fikrimuhal](http://fikrimuhal.com) Head Quarters. It allows the team to control air-conditioning system via slack messages.
 
-//TODO insert a link to blog post about the whole Yelle project.
+## Intro
 
-See also yelle-backend to check how easy to implement an iot backend with nodejs and deployd.
+This program runs on chip esp8266 and with the help of [Arduino core for esp8266](https://github.com/esp8266/Arduino), it's developed in Arduino environment.
 
-//TODO insert links to yelle-backend and deployd.
+yelle-remote currently runs in [NodeMCU](http://nodemcu.com/index_en.html) which is an esp8266 based development board. However it's supposed to run in other esp8266 boards as well.
 
 
 ## How to run yelle-remote?
@@ -32,10 +32,7 @@ So download this library and add to your Arduino sketch using Library Manager or
 
 Select your board, port and do other configuration. Now, you should be ready to go with yelle-remote!
 
-## Hardware
-This program runs on chip esp8266 and with the help of [Arduino core for esp8266](https://github.com/esp8266/Arduino), it's developed in Arduino environment.
-
-yelle-remote currently runs in [NodeMCU](http://nodemcu.com/index_en.html) which is an esp8266 based development board. However it's supposed to run in other esp8266 boards as well.
+## How to setup the hardware?
 
 //TODO add a photo of board here..
 
@@ -51,7 +48,7 @@ yelle-remote currently runs in [NodeMCU](http://nodemcu.com/index_en.html) which
 Here is the wiring scheme of the hardware:
 ![Wiring scheme of the hardware][wiring-scheme]
 
-Please note that Vcc is connected to NodeMCU's Vin and GND in emmiter of the transistor is connected to NodeMCU's GND. I kept it this way to make the scheme easy on the eye.
+Please note that Vcc is connected to NodeMCU's Vin and GND in emitter of the transistor is connected to NodeMCU's GND. I kept it this way to make the scheme easy on the eye.
 
 Node mcu is powered via a usb power adapter.
 
