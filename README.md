@@ -28,7 +28,18 @@ This library provides a very easy to use interface to receive and send infrared 
 
 So download this library and add to your Arduino sketch using Library Manager or any method you want. You can follow this instruction set in case you have trouble adding the library: https://www.arduino.cc/en/Guide/Libraries
 
-#### 4. Run yelle.ino
+#### 4. Add config.h
+
+Create a file named config.h and put it beside of yelle-remote.ino. This file should include the following lines:
+
+```c
+#define WIFI_SSID "your_ssid"
+#define WIFI_PASS "your_password"
+#define SERVER_NAME "your.domain.com"
+#define SERVER_PORT "80"
+```
+
+#### 5. Run yelle.ino
 
 Select your board, port and do other configuration. Now, you should be ready to go with yelle-remote!
 
