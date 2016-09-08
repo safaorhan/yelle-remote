@@ -16,10 +16,24 @@ yelle-remote currently runs in [NodeMCU](http://nodemcu.com/index_en.html) which
 
 //TODO add a photo of board here..
 
-### Components
+### Used Components
 * NodeMCU v1.0
-
-//TODO to be continued..
+* IR LED (SB-5010IRB-CT) x2
+* General purpose transistor (NPN)
+* 10R Resistor (could be differ according to transistor and IR LED of your choice)
+* Power adapter (or any kind of 5V power source)
+* Breadboard, jumpers, cables, etc.
 
 ### Wiring
+Here is the wiring scheme of the hardware:
+![Wiring scheme of the hardware][wiring-scheme]
 
+Please note that Vcc is connected to NodeMCU's Vin and GND in emmiter of Q1 is connected to NodeMCU's GND. I kept it this way to make the scheme easy on the eye.
+
+Node mcu is powered via a usb power adapter.
+
+![Photo of yelle-remote][yelle-remote]
+
+
+[wiring-scheme]: https://cloud.githubusercontent.com/assets/4990386/18355942/81d9ffb2-75f3-11e6-9d7d-5a8b02e07ab7.png
+[yelle-remote]: https://cloud.githubusercontent.com/assets/4990386/18359343/30fd484c-7602-11e6-8ac5-7f7c4dad7549.png
