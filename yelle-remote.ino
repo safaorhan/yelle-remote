@@ -1,5 +1,5 @@
 /**
- * yelle.ino
+ * yelle-remote.ino
  * 
  * An arduino program runs on ESP8266 (NodeMCU)
  * which controls an Arcelik Air Conditioner
@@ -13,6 +13,8 @@
 #include <SPI.h>
 #include <ESP8266WiFi.h>
 #include <IRremoteESP8266.h>
+
+#include "config.h"
 
 // Hardware config
 const int IR_LED = 5;
