@@ -34,8 +34,6 @@ Select your board, port and do other configuration. Now, you should be ready to 
 
 ## How to setup the hardware?
 
-//TODO add a photo of board here..
-
 ### Used Components
 * NodeMCU v1.0
 * IR LED (SB-5010IRB-CT) x2
