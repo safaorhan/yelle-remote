@@ -39,7 +39,7 @@ Create a file named config.h and put it beside of yelle-remote.ino. This file sh
 #define SERVER_PORT "80"
 ```
 
-#### 5. Run yelle.ino
+#### 5. Run yelle-remote.ino
 
 Select your board, port and do other configuration. Now, you should be ready to go with yelle-remote!
 
