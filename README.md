@@ -24,7 +24,7 @@ The easiest way is to use Boards Manager. You can follow these instructions the 
 
 #### 3. Download IRremoteESP8266 Library
 
-This library provides a very easy to use interface to receive and send infrared waves via your ESP chip. It also has protocol implementations and command mappings for lots of brands.
+[This](https://github.com/markszabo/IRremoteESP8266) library provides a very easy to use interface to receive and send infrared waves via your ESP chip. It also has protocol implementations and command mappings for lots of brands.
 
 So download this library and add to your Arduino sketch using Library Manager or any method you want. You can follow this instruction set in case you have trouble adding the library: https://www.arduino.cc/en/Guide/Libraries
 
